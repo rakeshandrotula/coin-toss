@@ -3,10 +3,9 @@ import React from 'react';
 interface UIProps {
     onToss: () => void;
     isSpinning: boolean;
-    result: 'heads' | 'tails' | null;
 }
 
-const UI: React.FC<UIProps> = ({ onToss, isSpinning, result }) => {
+const UI: React.FC<UIProps> = ({ onToss, isSpinning }) => {
     return (
         <div className="glass-panel">
             <h1>Coin Toss</h1>

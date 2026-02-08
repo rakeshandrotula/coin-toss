@@ -60,7 +60,7 @@ function App() {
     <main className="main-layout">
       <div className="app-container">
         <Coin isSpinning={isSpinning} rotation={rotation} />
-        <UI onToss={handleToss} isSpinning={isSpinning} result={result} />
+        <UI onToss={handleToss} isSpinning={isSpinning} />
       </div>
       <History history={history} />
 
